@@ -1,0 +1,7 @@
+nome = input('Digite seu nome: ')
+print(nome.upper())
+print(nome.lower())
+qtdnome = len(nome.replace(' ', ''))
+nomeq = nome.split()
+nomep = len(nomeq[0])
+print('O nome digitado tem {} letras e o primeiro nome tem {} letras.' .format(qtdnome, nomep))
