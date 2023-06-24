@@ -1,1 +1,1 @@
-Códigos de alguns projetinhos básicos de Python.
+Códigos de alguns projetinhos básicos de **Python**.
