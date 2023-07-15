@@ -1,7 +1,7 @@
 
 from datetime import date
 current_date = date.today()
-data_nascimento = int(input('Informe sua data de nascimento: ')) # código para retornar a idade atual
+data_nascimento = int(input('Informe seu ano de nascimento: ')) # código para retornar a idade atual
 data_atual = current_date.year
 idade = data_atual - data_nascimento
 print('Sua idade é {} anos.' .format(idade))

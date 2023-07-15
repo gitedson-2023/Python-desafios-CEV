@@ -1,6 +1,6 @@
 from datetime import date
 current_date = date.today()
-data_nascimento = int(input('Informe a data de nascimento do atleta: '))
+data_nascimento = int(input('Informe o ano de nascimento do atleta: '))
 data_atual = current_date.year
 idade = data_atual - data_nascimento
 print('A idade do atleta é {} anos.' .format(idade))
